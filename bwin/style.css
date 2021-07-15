@@ -1,0 +1,63 @@
+:root {
+    --color-black: #000;
+    --color-cod-gray: #171717;
+    --color-dark-gray: #2E2E2E;
+    --color-yellow: #FFCC00;
+    --color-darker-yellow: #C69E02;
+    --color-white: #FFF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/roboto/regular.woff2") format("woff2"), url("/assets/fonts/roboto/regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyrillic';
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/fonts/druk/text-bold.woff2") format("woff2"), url("/assets/fonts/druk/text-bold.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyrillic';
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/fonts/druk/wide-bold.woff2") format("woff2"), url("/assets/fonts/druk/wide-bold.woff") format("woff")
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
