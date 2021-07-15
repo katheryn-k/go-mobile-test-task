@@ -1,0 +1,195 @@
+/* screen-xl */
+
+@media (max-width: 1200px) {
+    .page-wrapper__overlay {
+        overflow: auto;
+    }
+    .promo__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .promo__content {
+        margin-right: 0;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer__container {
+        justify-content: space-evenly;
+    }
+}
+
+
+/* screen-lg */
+
+@media (max-width: 992px) {
+    .logo {
+        width: 130px;
+        height: 55px;
+    }
+    .promo__text--yellow {
+        font-size: 100px;
+        line-height: 67px;
+    }
+    .promo__text--white-l {
+        font-size: 55px;
+        line-height: 67px;
+    }
+    .promo__text--white-m {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .promo__text--m {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .promo__text--s {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .promo__btn {
+        height: 65px;
+        font-size: 27px;
+    }
+    .footer__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rule__link {
+        flex-basis: 100%;
+        flex-grow: 2;
+        order: 1;
+        text-align: center;
+    }
+    .social__list {
+        margin-right: 30px;
+    }
+    .social__list,
+    .football-team__list {
+        flex-basis: 40%;
+        order: 2;
+    }
+}
+
+
+/* screen-md */
+
+@media (max-width: 768px) {
+    .page-wrapper {
+        justify-content: center;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .header__logo {
+        padding-top: 20px;
+    }
+    .logo {
+        width: 65px;
+        height: 20px;
+    }
+    .promo__text--yellow {
+        font-size: 53px;
+        line-height: 67px;
+    }
+    .promo__text--white-l {
+        font-size: 31px;
+        line-height: 31px;
+    }
+    .promo__text--white-m {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .promo__text--m {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .promo__text--s {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .promo__btn {
+        margin-top: 15px;
+        width: 160px;
+        height: 45px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .promo__image img {
+        width: 290px;
+        height: 235px;
+    }
+    .social__link {
+        width: 70px;
+        height: 20px;
+    }
+    .social__item:not(:last-child) {
+        margin-right: 8px;
+    }
+    .social__link--apple,
+    .social__link--google {
+        background-size: 70px 20px;
+    }
+    .rule__link {
+        flex-basis: 100%;
+        font-size: 10px;
+    }
+    .social__list,
+    .football-team__list {
+        flex-basis: 33%;
+    }
+    .football-team__item:not(:last-child) {
+        margin-right: 10px;
+    }
+    .football-team__link {
+        height: 22px;
+    }
+    .football-team__link--atletico,
+    .football-team__link--valencia {
+        width: 16px;
+        height: 22px;
+        background-size: 16px 22px;
+    }
+    .football-team__link--borussia,
+    .football-team__link--inter {
+        width: 21px;
+        height: 21px;
+        background-size: 21px 21px;
+    }
+    .modal,
+    .modal__container {
+        width: 275px;
+        height: 390px;
+    }
+    .modal__btn--exit {
+        right: 9px;
+        top: 3px;
+        width: 12px;
+        height: 12px;
+        background-size: 12px 12px;
+    }
+    .modal__item--how-it-works,
+    .modal__item--imp-rules {
+        margin-top: 30px;
+    }
+    .modal__title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .modal p {
+        padding: 15px 30px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .modal__list-item::before {
+        left: 15px;
+        top: 20px;
+    }
+    .simplebar-track.simplebar-vertical {
+        right: 12px;
+        top: 45px;
+        width: 5px;
+        height: 250px;
+    }
+}
