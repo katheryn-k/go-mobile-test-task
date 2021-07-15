@@ -14,6 +14,11 @@
 
 - SimpleBar (Custom scrollbar plugin)
 
+**Deploy:**
+
+- Netlify
+
+
   
 
 
