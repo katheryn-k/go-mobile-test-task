@@ -295,3 +295,113 @@ ul {
     background-image: url('./assets/images/footer-img-4.png');
     background-size: 35px 43px;
 }
+
+.modal {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 105px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: scroll;
+    background-color: var(--color-cod-gray);
+}
+
+.modal--open {
+    display: block;
+}
+
+.modal--close {
+    display: none;
+}
+
+.modal__container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.modal__btn--exit {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/images/cross.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal__item--rules {
+    margin-top: 20px;
+}
+
+.modal__item--how-it-works,
+.modal__item--imp-rules {
+    margin-top: 75px;
+}
+
+.modal__title {
+    margin: 0;
+    font-family: 'Druk Text Wide Cyrillic';
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.modal p {
+    margin: 0;
+    padding: 35px 45px 40px 45px;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.modal__list-item {
+    position: relative;
+}
+
+.modal__list-item::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+}
+
+
+/* scrollbar styles */
+
+.simplebar-scrollbar {
+    height: 163px;
+    border-radius: 100px;
+    background-color: var(--color-white);
+}
+
+.simplebar-scrollbar::before {
+    background-color: var(--color-white);
+}
+
+.simplebar-track.simplebar-vertical {
+    right: 25px;
+    top: 85px;
+    width: 9px;
+    height: 458px;
+    border-radius: 100px;
+    background-color: var(--color-dark-gray);
+}
+
+.simplebar-track.simplebar-horizontal {
+    display: none;
+}
