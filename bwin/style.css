@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/assets/fonts/roboto/regular.woff2") format("woff2"), url("/assets/fonts/roboto/regular.woff") format("woff")
+    src: url("./assets/fonts/roboto/regular.woff2") format("woff2"), url("./assets/fonts/roboto/regular.woff") format("woff")
 }
 
 @font-face {
@@ -20,7 +20,7 @@
     font-style: bold;
     font-weight: 700;
     font-display: swap;
-    src: url("/assets/fonts/druk/text-bold.woff2") format("woff2"), url("/assets/fonts/druk/text-bold.woff") format("woff")
+    src: url("./assets/fonts/druk/text-bold.woff2") format("woff2"), url("./assets/fonts/druk/text-bold.woff") format("woff")
 }
 
 @font-face {
@@ -28,7 +28,7 @@
     font-style: bold;
     font-weight: 700;
     font-display: swap;
-    src: url("/assets/fonts/druk/wide-bold.woff2") format("woff2"), url("/assets/fonts/druk/wide-bold.woff") format("woff")
+    src: url("./assets/fonts/druk/wide-bold.woff2") format("woff2"), url("./assets/fonts/druk/wide-bold.woff") format("woff")
 }
 
 *,
