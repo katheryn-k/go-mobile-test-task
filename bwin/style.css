@@ -219,3 +219,79 @@ ul {
     width: 730px;
     height: 590px;
 }
+
+.footer {
+    flex-shrink: 0;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    background-color: var(--color-black);
+}
+
+.social__list {
+    display: flex;
+}
+
+.social__link {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 35px;
+}
+
+.social__link--apple {
+    background-image: url('./assets/images/app-store.svg');
+}
+
+.social__link--google {
+    background-image: url('./assets/images/google.svg');
+}
+
+.rule__link {
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.football-team__list {
+    display: flex;
+}
+
+.football-team__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.football-team__link {
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.football-team__link--atletico {
+    width: 40px;
+    background-image: url('./assets/images/footer-img-1.png');
+    background-size: 35px 43px;
+}
+
+.football-team__link--borussia {
+    width: 50px;
+    background-image: url('./assets/images/footer-img-2.png');
+    background-size: 47px 42px;
+}
+
+.football-team__link--inter {
+    width: 50px;
+    background-image: url('./assets/images/footer-img-3.png');
+    background-size: 47px 42px;
+}
+
+.football-team__link--valencia {
+    width: 40px;
+    background-image: url('./assets/images/footer-img-4.png');
+    background-size: 35px 43px;
+}
